@@ -1,0 +1,349 @@
+@media screen and (max-width: 1500px){
+    .model{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1412px){
+    .trade div{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 1378px){
+    .inspired{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1214px){
+    .quest{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1277px){
+    .model{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1290px){
+    #repair{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1172px){
+    .many{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1078px){
+    .quest{
+       flex-flow: column nowrap;
+       width: 68%;
+       min-width: 692px;
+    }
+    .quest article{
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        margin-bottom: 15px;
+        min-width: 692px;
+    }
+
+}
+@media screen and (max-width: 1070px){
+    .retrait{
+        display: none;
+    }
+    .beware{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1065px){
+    .tell_us .uno{
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .uno img{
+        width: 229px;
+        height: 140px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    .card{
+        text-align: center;
+        flex-flow: column;
+        width: 80%;
+        justify-content: center;
+    }
+    .card .text{
+        order: 1;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .card figure{
+        width: 100%;
+        order: 2;
+        
+    }
+    .card img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1052px){
+    .all{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1071px){
+    .appstore{
+        text-align: center;
+        flex-flow: column;
+        width: 80%;
+        justify-content: center;
+    }
+    .appstore .text{
+        width: 100%;
+    }
+    .appstore figure{
+        width: 100%;
+        
+    }
+    .appstore img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    nav{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 945px){
+    #cache{
+        display: block;
+    }
+    #cache a{
+        color: #333;
+    }
+    #cache a:hover{
+        text-decoration: underline;
+    }
+    #cache p{
+        margin: 0;
+    }
+    #cache section{
+        font-size: 12px;
+        line-height: 1.5;
+        font-weight: 400;
+        letter-spacing: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 8px;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+    .globalfooter{
+        display: none;
+    }
+    .many{
+        margin-top: 25px;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .copyright{
+        transform: translateX(-10px);
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        order: 2;
+        max-width: 360px;
+    }
+    .copyright p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .states{
+        order: 1;
+    }
+    .all{
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+}
+@media screen and (max-width: 900px){
+    .tell_us .uno{
+        margin-left: 30px;
+    }
+}
+
+
+@media screen and (max-width: 840px){
+    .trade div{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 770px){
+    .globalfooter{
+        display: none;
+    }
+   
+}
+@media screen and (max-width: 765px){
+    nav{
+        width: 100%;
+        display: none;
+    }
+    #hamburger_button{
+        display: block;
+        color: white;
+        font-size: 30px;
+        padding: 0;
+        float: left;
+        margin-right: 32px;
+        margin-left: 10px;
+        background: rgba(45,45,45,0.98);
+        border: none;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    .nav{
+        overflow: hidden;
+        background: rgba(45,45,45,0.98);
+    }
+
+}
+
+@media screen and (max-width: 755px){
+    .model{
+        width: 95%;
+        text-align: center;
+    }
+    .model figure{
+        margin: 10px 30px;
+    }
+}
+@media screen and (max-width: 748px){
+    .banniere{
+        height: auto;
+        background-image: none;
+    }
+    .banniere h1{
+        font-size: 35px;
+    }
+    .banniere input{
+        width: 90%;
+        height: 40px;
+    }
+    
+}
+@media screen and (max-width: 740px){
+    .trade *, .learn *{
+        display: none;
+    }
+    .trade, .learn{
+        height: 320px;
+    }
+    .tell_us .uno{
+        width: 90%;
+    }
+
+    #repair{
+        width: 90%;
+    }
+    .beware{
+        width: 90%;
+    }
+    #myth{
+        display: block;
+        padding: 15px 10px 40px 30px;
+    }
+    #myth p{
+        color: #333;
+        font-size: 18px;
+        line-height: 1.5294717647;
+        font-weight: 400;
+        letter-spacing: -0.021em;
+    }
+    #myth a{
+        font-size: 20px;
+        line-height: 1.4545454545;
+        font-weight: 300;
+        letter-spacing: .016em;
+        color: #0070c9;
+    }
+    #myth div{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        
+    }
+    #myth h1{
+        font-size: 28px;
+        line-height: 1.1073028571;
+        font-weight: 500;
+        letter-spacing: .012em;
+    }
+    .tell_us .uno, .last{
+        flex-flow: column;
+    }
+}
+@media screen and (max-width: 735px){
+    .gift h1{
+        font-size: 23px;
+        line-height: 1.2084933333;
+        font-weight: 500;
+        letter-spacing: .015em;
+        margin-right: 10px;
+    }
+    .gift{
+        width: 90%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .gift img{
+        display: block;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 730px){
+    .quest{
+       flex-flow: column nowrap;
+       width: 95%;
+       min-width: auto;
+    }
+    .quest img{
+        margin: auto;
+        width: 375px;
+        height: 230px;
+        max-width: 100%;
+        height: auto;
+    }
+    .quest article{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 15px;
+        min-width: auto;
+    }
+    .second{
+        margin-top: -40px;
+    }
+    .uno img{
+        width: 390px;
+        height: 230px;
+    }
+    .uno article{
+        margin-right: auto;
+    }
+    .tell_us h2{
+        font-size: 28px;
+    }
+
+}

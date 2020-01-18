@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="queries.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain">
+        <header>
+            <div class="nav">
+                <button id="hamburger_button">&#9776;</button>
+                <nav>
+                    <a href=""><svg class="haut" width="22" height="30">
+                        <path  d="M4.02,15.73c-0.25-0.16-0.51-0.39-0.77-0.71c-0.18-0.21-0.4-0.51-0.66-0.9c-0.45-0.65-0.82-1.4-1.1-2.25c-0.31-0.93-0.46-1.82-0.46-2.69c0-0.97,0.21-1.82,0.62-2.53C1.97,6.08,2.4,5.63,2.95,5.3C3.5,4.96,4.08,4.79,4.71,4.78c0.22,0,0.45,0.03,0.7,0.09C5.59,4.92,5.81,5,6.07,5.1c0.34,0.13,0.53,0.21,0.59,0.23c0.2,0.07,0.37,0.1,0.5,0.1c0.1,0,0.24-0.03,0.4-0.08c0.09-0.03,0.26-0.09,0.5-0.19C8.3,5.07,8.49,5,8.64,4.94c0.23-0.07,0.45-0.13,0.65-0.16C9.53,4.74,9.77,4.73,10,4.75c0.44,0.03,0.84,0.12,1.2,0.26c0.63,0.25,1.14,0.65,1.52,1.21c-0.16,0.1-0.31,0.21-0.45,0.34c-0.31,0.28-0.57,0.59-0.76,0.93c-0.27,0.48-0.4,1.01-0.4,1.56c0.01,0.67,0.18,1.26,0.52,1.77c0.24,0.37,0.56,0.69,0.95,0.95c0.19,0.13,0.36,0.22,0.52,0.28c-0.08,0.26-0.17,0.49-0.25,0.68c-0.22,0.52-0.48,0.99-0.77,1.43c-0.27,0.39-0.48,0.68-0.64,0.87c-0.25,0.3-0.49,0.52-0.73,0.68c-0.28,0.18-0.58,0.27-0.9,0.27c-0.22,0.01-0.43-0.02-0.64-0.08c-0.12-0.04-0.3-0.1-0.53-0.2c-0.23-0.1-0.42-0.17-0.56-0.21c-0.23-0.06-0.47-0.09-0.72-0.09c-0.25,0-0.49,0.03-0.72,0.09c-0.16,0.04-0.34,0.11-0.56,0.2c-0.26,0.11-0.43,0.18-0.53,0.21c-0.2,0.06-0.41,0.1-0.61,0.11C4.62,16.01,4.32,15.92,4.02,15.73z M8.26,4.31c-0.42,0.21-0.82,0.3-1.22,0.27c-0.06-0.4,0-0.81,0.17-1.26c0.15-0.38,0.35-0.73,0.62-1.04s0.6-0.57,1.01-0.78c0.41-0.21,0.8-0.32,1.17-0.34C10.06,1.58,10.01,2,9.86,2.44C9.72,2.84,9.51,3.2,9.24,3.53C8.97,3.86,8.64,4.12,8.26,4.31z" />
+                      </svg></a>
+                    <a href="" class="b7">Mac</a>
+                    <a href="" class="b7">iPad</a>
+                    <a href="" class="b7">iPhone</a>
+                    <a href="" class="b7">Watch</a>
+                    <a href="" class="b7">TV</a>
+                    <a href="" class="b7">Music</a>
+                    <a href="" class="b7">Support</a>
+                    <a href=""><svg class="haut search" width="22" height="30">
+                        <path  d="M17.632,16.955l-4.761-4.762c1.109-1.188,1.795-2.776,1.795-4.527c0-3.667-2.982-6.648-6.649-6.648
+                        c-3.667,0-6.649,2.981-6.649,6.647c0,3.667,2.982,6.647,6.649,6.647c1.391,0,2.682-0.434,3.75-1.164l4.834,4.834L17.632,16.955z
+                         M2.824,7.666c0-2.862,2.33-5.191,5.192-5.191c2.864,0,5.192,2.329,5.192,5.191c0,2.861-2.328,5.191-5.192,5.191
+                        C5.154,12.855,2.824,10.527,2.824,7.666z" />
+                      </svg></a></a>
+                      <a href=""><svg class="ici" width="45" height="38">
+                        <path  d="M 11.359375 0.328125 C 10.054688 0.601562 9.007812 1.546875 8.585938 2.816406 C 8.453125 3.210938 8.449219 3.277344 8.425781 4.589844 L 8.40625 5.957031 L 6.492188 5.957031 C 5.132812 5.957031 4.511719 5.980469 4.363281 6.019531 C 4.082031 6.101562 3.65625 6.527344 3.574219 6.804688 C 3.488281 7.113281 3.488281 23.597656 3.574219 23.902344 C 3.65625 24.183594 4.082031 24.609375 4.363281 24.6875 C 4.527344 24.734375 6.511719 24.75 12.90625 24.75 L 21.238281 24.75 L 21.359375 24.621094 L 21.488281 24.5 L 21.488281 15.757812 C 21.488281 9.042969 21.472656 6.96875 21.429688 6.804688 C 21.347656 6.527344 20.921875 6.101562 20.640625 6.019531 C 20.5 5.980469 19.960938 5.957031 18.945312 5.957031 C 17.683594 5.957031 17.460938 5.949219 17.433594 5.882812 C 17.417969 5.839844 17.410156 5.457031 17.410156 5.03125 C 17.414062 4.136719 17.34375 3.753906 17.078125 3.1875 C 16.636719 2.246094 15.882812 1.570312 14.886719 1.234375 C 14.667969 1.164062 14.375 1.019531 14.242188 0.921875 C 13.429688 0.347656 12.328125 0.117188 11.359375 0.328125 Z M 12.574219 1.085938 C 12.789062 1.117188 12.910156 1.210938 12.730469 1.210938 C 12.683594 1.210938 12.511719 1.269531 12.339844 1.34375 C 11.183594 1.828125 10.355469 2.839844 10.121094 4.046875 C 10.082031 4.277344 10.050781 4.742188 10.050781 5.199219 L 10.050781 5.957031 L 9.234375 5.957031 L 9.234375 4.820312 C 9.234375 3.492188 9.273438 3.222656 9.539062 2.660156 C 10.078125 1.550781 11.300781 0.914062 12.574219 1.085938 Z M 14.335938 2.109375 C 14.445312 2.242188 14.601562 2.464844 14.671875 2.613281 C 14.921875 3.125 14.953125 3.339844 14.953125 4.691406 L 14.953125 5.957031 L 10.867188 5.957031 L 10.867188 5.226562 C 10.867188 4.320312 10.925781 4.003906 11.179688 3.472656 C 11.644531 2.507812 12.644531 1.882812 13.761719 1.878906 L 14.125 1.875 Z M 16.179688 3.238281 C 16.519531 3.796875 16.582031 4.089844 16.585938 5.074219 L 16.585938 5.957031 L 15.78125 5.957031 L 15.773438 4.667969 C 15.769531 3.554688 15.757812 3.324219 15.667969 2.976562 C 15.613281 2.75 15.566406 2.558594 15.566406 2.542969 C 15.566406 2.464844 16.023438 2.988281 16.179688 3.238281 Z M 5.984375 7.039062 C 5.949219 7.378906 5.84375 7.535156 5.558594 7.679688 C 5.285156 7.820312 5.042969 7.828125 4.761719 7.699219 C 4.351562 7.515625 4.210938 7.148438 4.460938 6.902344 C 4.578125 6.78125 4.605469 6.777344 5.296875 6.777344 L 6.011719 6.777344 Z M 10.050781 7.433594 L 10.050781 8.09375 L 9.898438 8.152344 C 9.550781 8.296875 9.234375 8.8125 9.234375 9.226562 C 9.234375 9.859375 9.824219 10.453125 10.460938 10.453125 C 11.09375 10.453125 11.683594 9.859375 11.683594 9.226562 C 11.683594 8.8125 11.367188 8.296875 11.019531 8.152344 L 10.867188 8.09375 L 10.867188 6.777344 L 16.585938 6.777344 L 16.585938 8.09375 L 16.433594 8.152344 C 16.085938 8.296875 15.769531 8.8125 15.769531 9.226562 C 15.769531 9.859375 16.363281 10.453125 16.996094 10.453125 C 17.316406 10.453125 17.578125 10.335938 17.839844 10.070312 C 18.359375 9.554688 18.347656 8.84375 17.816406 8.34375 C 17.683594 8.21875 17.546875 8.109375 17.507812 8.09375 C 17.445312 8.070312 17.429688 7.941406 17.425781 7.421875 L 17.414062 6.773438 L 20.421875 6.773438 L 20.542969 6.902344 L 20.671875 7.027344 L 20.671875 23.933594 L 7.03125 23.933594 L 6.910156 23.804688 L 6.78125 23.683594 L 6.78125 7.027344 L 6.910156 6.902344 L 7.03125 6.773438 L 10.050781 6.773438 Z M 5.148438 8.609375 C 5.300781 8.609375 5.550781 8.566406 5.699219 8.515625 L 5.964844 8.425781 L 5.964844 16.0625 C 5.964844 20.265625 5.980469 23.753906 5.996094 23.816406 L 6.027344 23.933594 L 5.308594 23.933594 C 4.609375 23.933594 4.578125 23.929688 4.460938 23.804688 L 4.332031 23.683594 L 4.332031 8.425781 L 4.601562 8.515625 C 4.746094 8.566406 4.996094 8.609375 5.148438 8.609375 Z M 10.742188 8.945312 C 10.996094 9.195312 10.816406 9.636719 10.460938 9.636719 C 10.25 9.636719 10.050781 9.4375 10.050781 9.226562 C 10.050781 9.015625 10.25 8.816406 10.460938 8.816406 C 10.554688 8.816406 10.664062 8.863281 10.742188 8.945312 Z M 17.277344 8.945312 C 17.359375 9.023438 17.402344 9.128906 17.402344 9.226562 C 17.402344 9.324219 17.359375 9.429688 17.277344 9.507812 C 17.199219 9.589844 17.09375 9.636719 16.996094 9.636719 C 16.898438 9.636719 16.792969 9.589844 16.714844 9.507812 C 16.632812 9.429688 16.585938 9.324219 16.585938 9.226562 C 16.585938 9.128906 16.632812 9.023438 16.714844 8.945312 C 16.792969 8.863281 16.898438 8.816406 16.996094 8.816406 C 17.09375 8.816406 17.199219 8.863281 17.277344 8.945312 Z M 17.277344 8.945312" />
+                      </svg></a>
+
+                    
+                </nav>
+            </div>
+            
+            <div class="banniere">
+                <h1>Welcome to Apple Support</h1>
+                <input type="text" placeholder="Search Support">
+            </div>
+        </header>
+    </div>
+    <!--fin contain et image de fond-->
+    <main>
+        <section class="model">
+            <figure>
+                <a href=""><img src="img/iphone.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">iphone</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/mac.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">Mac</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/ipad.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">Ipad</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/watch.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">watch</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/applemusic.png" width="68" height="68"  alt=""></a>
+                <p>
+                    <a href="">Musical</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/tv.png" width="68" height="68"  alt=""></a>
+                <p>
+                    <a href="">TV</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/apple_id.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">identifiant Apple</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/airpods_2x.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">airpods</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/appstore_2x.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">App Store</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/icloud.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">icloud</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/applepay.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">Apple Pay</a>
+                </p>
+            </figure>
+            <figure>
+                <a href=""><img src="img/pro_apps_2x.png"  width="68" height="68" alt=""></a>
+                <p>
+                    <a href="">Application Pro</a>
+                </p>
+            </figure>     
+        </section>
+        <div class="separe"></div>
+        <!--App store section ici-->
+        <section class="appstore">
+            <div class="text">
+                <h1>App Store and iTunes Gift Cards</h1>
+                <p class="para">
+                    Use gift cards for Apple digital content and subscriptions.
+                </p class="para">
+                <p>
+                    <a href="" class="aa">Learn how to redeem ></a>
+                </p>
+            </div>
+            <figure>
+                <img src="img/featured-section-promo-gift-cards_2x.png" width="400" height="200" alt="">
+            </figure>
+        </section>
+
+        <div class="separe"></div>
+
+        <section class="card">
+            <figure>
+                <img src="img/applecard-dashboard_2x.png" width="207" height="300" alt="">
+            </figure>
+            <div class="text">
+                <h1>Apple Card</h1>
+                <p class="para">
+                    Designed for iPhone and a healthier financial life, Apple 
+                    Card sets a new level of security and privacy.
+                </p>
+                    <a href="" class="aa">Learn how to redeem ></a>
+            </div>
+            
+        </section>
+
+        <div class="separe"></div>
+        <section class="trade">
+            <div class="dessus">
+                <h1>Trade in with Apple</h1>
+                <p>
+                    Turn an eligible device into credit towards a 
+                    new one, or recycle it for free. Apple 
+                    Trade In is good for you and the planet.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+        </section>
+        <div id="myth">
+            <h1>Trade in with Apple</h1>
+            <p>
+                Turn an eligible device into credit towards a 
+                new one, or recycle it for free. Apple 
+                Trade In is good for you and the planet.
+            </p>
+            <a href="">Learn more ></a>
+        </div>
+
+        <section class="quest">
+            <article>
+                <img src="img/contentlink-communities_2x.png" width="283" height="173" alt="">
+                <div class="explain">
+                    <h1>Have a question?</h1>
+                    <p>
+                        Ask everyone. Our Apple Support Community can help you find answers.
+                    </p>
+                    <a href="">Ask the community</a>
+                </div>
+            </article>
+            <article>
+                <img src="img/youtube-watch-learn-promo_2x.png" width="283" height="173" alt="">
+                <div class="explain">
+                    <h1>Watch and learn</h1>
+                    <p>Then play. Discover new ways to enjoy your devices with our how-to and help videos.
+                    </p>
+                    
+                    <a href=""> Explore our videos on YouTube</a>    
+                </div>
+            </article>
+            <article>
+                <img src="img/social.png" width="283" height="173" alt="">
+                <div class="explain">
+                    <h1>Get quick tips</h1>
+                    <p>And the help you need — all in one place. We're here every day to answer your questions.</p>
+                    <a href=""> Contact us @AppleSupport</a>    
+                </div>
+            </article>
+        </section>
+        <section class="learn">
+            <div class="inspired">
+                <h1>Learn, create, and be inspired</h1>
+                <p>
+                    Write your first line of code, capture an artful photo, 
+                    or make your own music. Join hands-on sessions 
+                    happening every day at every Apple Store.
+                </p>
+                
+                    <a href="">Find Today at Apple sessions near you </a>
+                    
+            </div>
+        </section>
+        <div id="myth" class="second">
+            <h1>Learn, create, and be inspired</h1>
+            <p>
+                Write your first line of code, capture an artful photo, 
+                or make your own music. Join hands-on sessions 
+                happening every day at every Apple Store.
+            </p>
+            
+            <a href="">Find Today at Apple sessions near you </a>
+        </div>
+        <section class="tell_us">
+            <div class="uno">
+                <img src="img/content.png" width="375" height="220" alt="">
+                <article>
+                    <h2>Tell us how we can help</h2>
+                    <p>Answer a few questions and we'll help you find a solution.</p>
+                    <a href="">Get Support </a>    
+                </article>
+            </div>
+            <div class="separe"></div>
+            <div class="uno">
+                <article>
+                    <h2>Find out about your coverage</h2>
+                    <p>
+                        <a href="">AppleCare products </a>give you additional repair coverage and technical 
+                        support. If you already bought an AppleCare product, you can
+                        <a href=""> manage it online</a>.
+                    </p>
+                    <a href="">Check coverage for your product</a>    
+                </article>
+                <img src="img/applecare-products_2x.png" class="retrait" width="375" height="200" alt="">
+            </div>
+            <div class="separe"></div>
+            <div class="uno last" id="repair">
+                <img src="img/psp-repair_2x.png" width="375" height="220" alt="">
+                <article>
+                    <h2>Let's get that fixed</h2>
+                    <p>If your Apple device needs repairs, you can go to an  Apple Store, 
+                        visit an Authorized Service Provider, or mail in your 
+                        device. Whatever you choose, we’ll make sure your device 
+                        works the way it should.</p>
+                    <a href="">Choose a repair option</a>    
+                </article>
+            </div>
+        </section>
+        
+        <section class="beware">
+            <h1>Beware of counterfeit parts</h1>
+            <p>
+                Some counterfeit and third party power adapters and batteries 
+                may not be designed properly and could result in safety issues. 
+                To ensure you receive a genuine Apple battery during a battery 
+                replacement, we recommend visiting <a href="">Apple Store</a>an  
+                or<a href="">Apple Authorized Service Provider</a> 
+                . If you need a replacement 
+                adapter to charge your Apple device, we recommend 
+                getting an Apple power adapter.
+            </p>
+            <p>
+                Also non-genuine replacement displays may have compromised 
+                visual quality and may fail to work correctly. Apple-certified 
+                screen repairs are performed by trusted experts who use genuine Apple parts.
+            </p>
+        </section>
+        <div class="separe"></div>
+        <section class="gift">
+            <img src="img/itunes-gift-card-trimmed_2x.jpg" width="200" height="140" alt="">
+            <article>
+                <h1>Be aware of gift card scams</h1>
+                <a href="">Learn more</a>    
+            </article>
+        </section>
+        <section class="exchange">
+            <h1>Exchange and Repair Extension Programs</h1>
+            <article>
+                <a href="">Smart Battery Case Replacement Program for iPhone XS, iPhone XS Max, and iPhone XR</a>
+                <a href="">iPhone 6s and iPhone 6s Plus Service Program for No Power Issues</a>
+                <a href="">Screen Replacement Program for Aluminum Models of Apple Watch Series 2 and Series 3</a>
+                <a href="">15-inch MacBook Pro Battery Recall Program</a>
+                <a href="">Keyboard Service Program for MacBook, MacBook Air, and MacBook Pro</a>
+                <a href="">13-inch MacBook Pro Display Backlight Service Program</a>
+                <a href="">Apple Three-Prong AC Wall Plug Adapter Recall Program</a>
+                <a href="">13-inch MacBook Pro (non Touch Bar) Solid-State Drive Service Program</a>
+                <a href="">iPhone X Display Module Replacement Program for Touch Issues</a>
+                <a href="">iPhone 8 Logic Board Replacement Program</a>
+                <a href="">13-inch MacBook Pro (non Touch Bar) Battery Replacement Program</a>
+                <a href=""> iPhone 7 Repair Program for "No Service" Issues</a>
+                <a href="">iPhone 6s Program for Unexpected Shutdown Issues</a>
+                <a href="">Multi-Touch Repair Program for iPhone 6 Plus</a>
+                <a href="">Apple AC Wall Plug Adapter Recall Program</a>
+                <a href="">Beats Pill XL Speaker Recall Program</a>
+                <a href="">All program</a>
+            </article>
+        </section>
+    
+    </main>
+    <footer>
+        <div class="all">
+            <div class="top">
+                <div class="svg">
+                    <a href=""><svg class="bas" width="22" height="30">
+                        <path  d="M4.02,15.73c-0.25-0.16-0.51-0.39-0.77-0.71c-0.18-0.21-0.4-0.51-0.66-0.9c-0.45-0.65-0.82-1.4-1.1-2.25c-0.31-0.93-0.46-1.82-0.46-2.69c0-0.97,0.21-1.82,0.62-2.53C1.97,6.08,2.4,5.63,2.95,5.3C3.5,4.96,4.08,4.79,4.71,4.78c0.22,0,0.45,0.03,0.7,0.09C5.59,4.92,5.81,5,6.07,5.1c0.34,0.13,0.53,0.21,0.59,0.23c0.2,0.07,0.37,0.1,0.5,0.1c0.1,0,0.24-0.03,0.4-0.08c0.09-0.03,0.26-0.09,0.5-0.19C8.3,5.07,8.49,5,8.64,4.94c0.23-0.07,0.45-0.13,0.65-0.16C9.53,4.74,9.77,4.73,10,4.75c0.44,0.03,0.84,0.12,1.2,0.26c0.63,0.25,1.14,0.65,1.52,1.21c-0.16,0.1-0.31,0.21-0.45,0.34c-0.31,0.28-0.57,0.59-0.76,0.93c-0.27,0.48-0.4,1.01-0.4,1.56c0.01,0.67,0.18,1.26,0.52,1.77c0.24,0.37,0.56,0.69,0.95,0.95c0.19,0.13,0.36,0.22,0.52,0.28c-0.08,0.26-0.17,0.49-0.25,0.68c-0.22,0.52-0.48,0.99-0.77,1.43c-0.27,0.39-0.48,0.68-0.64,0.87c-0.25,0.3-0.49,0.52-0.73,0.68c-0.28,0.18-0.58,0.27-0.9,0.27c-0.22,0.01-0.43-0.02-0.64-0.08c-0.12-0.04-0.3-0.1-0.53-0.2c-0.23-0.1-0.42-0.17-0.56-0.21c-0.23-0.06-0.47-0.09-0.72-0.09c-0.25,0-0.49,0.03-0.72,0.09c-0.16,0.04-0.34,0.11-0.56,0.2c-0.26,0.11-0.43,0.18-0.53,0.21c-0.2,0.06-0.41,0.1-0.61,0.11C4.62,16.01,4.32,15.92,4.02,15.73z M8.26,4.31c-0.42,0.21-0.82,0.3-1.22,0.27c-0.06-0.4,0-0.81,0.17-1.26c0.15-0.38,0.35-0.73,0.62-1.04s0.6-0.57,1.01-0.78c0.41-0.21,0.8-0.32,1.17-0.34C10.06,1.58,10.01,2,9.86,2.44C9.72,2.84,9.51,3.2,9.24,3.53C8.97,3.86,8.64,4.12,8.26,4.31z" />
+                      </svg></a>
+                </div>
+                <p> > Support</p>
+            </div>
+            <section class="globalfooter">
+                <article>
+                    <h3>Get Support</h3>
+                    <a href="">iPhone</a>
+                    <a href="">iPad</a>
+                    <a href="">Watch</a>
+                    <a href="">Mac</a>
+                    <a href="">Music</a>
+                    <a href="">Apple ID</a>
+                    <a href="">Apps</a>
+                    <a href="">Support Site Map</a>
+    
+                </article>
+                <article>
+                    <h3>Service & Repair </h3>
+                    <a href="">Apple Repair Options</a>
+                    <a href="">Service and Repair Information</a>
+                    <a href="">AppleCare Products</a>
+                    <a href="">Hardware Warranties</a>
+                    <a href="">Software License Agreements</a>
+                    <a href="">Apple ID</a>
+                    <a href="">Apps</a>
+                    <a href="">Support Site Map</a>
+                </article>
+                    
+                <article>
+                    <h3>Resources</h3>
+                    <a href="">Contact Us</a>
+                    <a href="">Phone Numbers</a>
+                    <a href="">My Support</a>
+                    <a href="">Apple Support App</a>  
+                    <a href="">@Apple Support</a>
+                </article>
+    
+                <article>
+                    <h3>Connect</h3>
+                    <a href="">Downloads & Updates</a>
+                    <a href="">Manuals</a>
+                    <a href="">Tech Specs</a>
+                    <a href="">Accessibility</a>
+                    <a href="">Education Program</a>
+                    <a href="">Business</a>
+                    <a href="">Apple Support Videos</a>
+    
+                </article>
+            </section>
+            <div id="cache">
+                <section>
+                    <a href="">Get Support</a><p>+</p>
+                </section>
+                <section>
+                    <a href="">Service & Repair</a><p>+</p>
+                </section>
+                <section>
+                    <a href="">Resources</a><p>+</p>
+                </section>
+                <section>
+                    <a href="">Connect</a><p>+</p>
+                </section>
+            </div>
+        </div>
+        <section class="many">
+            <div class="copyright">
+                <p>Copyright © 2020 Apple Inc. All rights reserved.</p>
+                <a href=""class="bar">Privacy Policy</a>
+                <a href=""class="bar">Terms of Use</a>
+                <a href=""class="bar">Sales and Refunds</a>
+                <a href="">Site Map</a>
+            </div>
+            <div class="states">
+                <a href="">United States</a>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+</html>
