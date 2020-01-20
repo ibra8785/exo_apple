@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first">
+        <header>
+            <button class="hamburger_button">&#9776;</button>
+            <div class="slide_right">
+                <a href="">Une vie</a>
+                <a href="">wapiti</a>
+                <a href="">segregation</a>
+            </div>
+        </header>
+        <main>
+            <div class="left">
+                <h1>Jocky</h1>
+                <p class="joky">
+                    Joky givers you the edge you<br> 
+                    need when chasing the stars <br> 
+                    of the professional leagues<br> 
+                </p>
+                <p class="create">
+                    Create an Account:
+                </p>
+                <form class="form2" onsubmit="return validateMyForm();">
+                    <p>
+                        <input type="text" placeholder=" First Name" class="un" required ><span></span>
+                        <input type="text" placeholder=" Last Name" class="deux" required ><span></span>
+                    </p>
+                    <p>
+                        <input type="email" id="email_bas" class="trois" placeholder=" Email Address" required><span></span>
+                    </p>
+                    <p>
+                        <input type="password" class="pass_1" placeholder=" Password" required ><span></span>
+                        <input type="tel" name="" id="tel" placeholder="Tel CI" required maxlength="8"><span></span>
+                    </p>
+                    <p>
+                       <button type="submit"  class="connexion">Sign Up</button>
+                    </p>
+                </form>
+            </div>
+
+
+            <div class="right">
+                <p class="create" id="connect">
+                    Connect !!!!
+                </p>
+                <form  class="form1" onsubmit="return  validateForm();">
+                    <input type="text" placeholder=" Username" class="username" required><span></span>
+                    <input type="password" class="pass_2" placeholder=" password" required><span></span>
+                    <button type="submit"  class="connect">Login</button>
+                </form>
+
+            </div>
+        </main>
+    </div>
+
+
+<script src="js/main.js"></script>
+    <script>
+   /**************hamburger miam miam***********************************/    
+     document.addEventListener("click", (evt) => {
+    const buttons = document.querySelector(".hamburger_button");
+    let ou_il_click = evt.target; // event nous disant ou il click
+        if (ou_il_click == buttons) {
+            document.querySelector('.slide_right').classList.add('slide_retour');
+        }
+        else{
+            document.querySelector('.slide_right').classList.remove('slide_retour');
+        }
+
+    });
+    /************************test*******************************************/
+   
+
+
+
+/******************************redirection form2**************************************/
+   var button = document.querySelector('.connexion');
+   button.addEventListener('click', validateMyForm);
+   function validateMyForm(){
+    if(status_email == 1 && status_tel == 1 && status_nom == 1 && status_prenom == 1 && status_pass1 == 1){
+        document.querySelector(".connexion").disabled = false;
+        window.open('img/page_down.png');
+        return true;
+    }else{
+        document.querySelector(".connexion").disabled = false;
+        alert('Veillez remplir correctement tous les champs');
+    return false; 
+    }
+   }
+
+/*******************************redirection form1******************************************/
+
+var button_2 = document.querySelector('.connect');
+   button_2.addEventListener('click', validateForm);
+   function validateForm(){
+    if(status_username == 1 && status_pass2 == 1){
+        document.querySelector(".connect").disabled = false;
+        window.open('img/page_down.png');
+        return true;
+    }else{
+        document.querySelector(".connect").disabled = false;
+        alert('Veillez remplir correctement tous les champs');
+    return false; 
+    }
+   }
+   
+
+
+    </script>
+
+</body>
+</html>
